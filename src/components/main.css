@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto&display=swap');
+
+
+/*header styles*/
+#headingContainer{
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+#headingContainer h1{
+	text-transform: uppercase;
+	padding: 12px;
+	letter-spacing: 2px;
+}
+
+/*searchbar style*/
+#searchContainer{
+	padding: 50px 12px;
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+}
+#searchContainer .searchBox{
+	display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 6px 0px; 
+    border:1px solid #cccccc;
+}
+#searchContainer h4{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+#searchContainer .searchBox div{
+	padding: 0px 8px;
+}
+
+#searchContainer .searchBox .mv_name input, #searchContainer .searchBox .mv_year input{
+	width:100%;
+	height: 38px;
+	border: none;
+	padding: 0px 5px;
+}
+#searchContainer .searchBox .mv_name, #searchContainer .searchBox .mv_year{
+	position: relative;
+}
+#searchContainer .searchBox .mv_name:after {
+	content: '';
+	display:block;
+	position: absolute;
+	background: #cccccc;
+	right: 0;
+	bottom: 10px;
+	width:1px;
+	height: 20px;
+}
+#searchContainer .searchBox .mv_year:after {
+	content: '';
+	display:block;
+	position: absolute;
+	background: #cccccc;
+	right: 0;
+	bottom: 10px;
+	width:1px;
+	height: 20px;
+}
+.css-yk16xz-control{
+	border-color: rgba(0,0,0,0) !important;
+}
+#searchContainer .searchBox .mv_name{
+	-ms-flex: 5;
+	flex: 5;
+}
+#searchContainer .searchBox .mv_year{
+	-ms-flex: 1;
+	flex: 1;
+}
+#searchContainer .searchBox .mv_gener{
+	-ms-flex: 3;
+	flex: 3;
+}
+.css-1pahdxg-control{
+	box-shadow: none !important;
+	border: none !important;
+}
