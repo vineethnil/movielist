@@ -78,7 +78,7 @@
 	-ms-flex: 1;
 	flex: 1;
 }
-#searchContainer .searchBox .mv_gener{
+#searchContainer .searchBox .mv_genre{
 	-ms-flex: 3;
 	flex: 3;
 }
@@ -99,6 +99,16 @@
 #searchContainer .srchbtn:hover{
 	background: #000000;
 	color: #ffffff;
+}
+
+@media(max-width: 600px){
+	#searchContainer .searchBox{
+		display:block;
+	}
+
+	#searchContainer .searchBox .mv_name, #searchContainer .searchBox .mv_year {
+	   border-bottom: 1px solid #cccccc;
+	}
 }
 
 /*Loading*/
