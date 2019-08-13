@@ -1,6 +1,5 @@
 import React from 'react';
 import './main.css';
-import $ from 'jquery';
 
 class Header extends React.Component {
 
